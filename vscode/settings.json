@@ -1,9 +1,9 @@
 {
     "rust.cargoPath": null,
-    "rust.racerPath": "/Users/yama/.cargo/bin/racer",
-    "rust.rustfmtPath": "/Users/yama/.cargo/bin/rustfmt",
-    "rust.rustLangSrcPath": "/Users/yama/.rustup/toolchains/nightly-x86_64-apple-darwin/lib/rustlib/src/rust/src",
-    "rust.cargoHomePath": "/Users/yama/.cargo",
+    "rust.racerPath": "~/.cargo/bin/racer",
+    "rust.rustfmtPath": "~/.cargo/bin/rustfmt",
+    "rust.rustLangSrcPath": "~/.rustup/toolchains/nightly-x86_64-apple-darwin/lib/rustlib/src/rust/src",
+    "rust.cargoHomePath": "~/.cargo",
     "java.errors.incompleteClasspath.severity": "ignore",
     "editor.minimap.enabled": false,
     "javascript.updateImportsOnFileMove.enabled": "always",
