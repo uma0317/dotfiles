@@ -1,0 +1,12 @@
+{
+    "rust.cargoPath": null,
+    "rust.racerPath": "/Users/yama/.cargo/bin/racer",
+    "rust.rustfmtPath": "/Users/yama/.cargo/bin/rustfmt",
+    "rust.rustLangSrcPath": "/Users/yama/.rustup/toolchains/nightly-x86_64-apple-darwin/lib/rustlib/src/rust/src",
+    "rust.cargoHomePath": "/Users/yama/.cargo",
+    "java.errors.incompleteClasspath.severity": "ignore",
+    "editor.minimap.enabled": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.formatOnPaste": true,
+    "terminal.integrated.shell.osx": "/usr/local/bin/zsh",
+}
