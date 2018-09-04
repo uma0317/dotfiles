@@ -1,0 +1,75 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    {
+        "key": "ctrl+shift+s",
+        "command": "editor.action.insertSnippet"
+    },
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "workbench.action.terminal.moveToLineEnd",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+right",
+        "command": "-workbench.action.terminal.moveToLineEnd",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+o n",
+        "command": "workbench.action.quickOpenTerm"
+    },
+    {
+        "key": "cmd+o p",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "key": "cmd+[Quote]",            "command": "workbench.action.terminal.focus",
+                                    "when": "editorTextFocus"
+    },
+    {
+        "key": "cmd+[Quote]",            "command": "workbench.action.focusFirstEditorGroup",
+                                    "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+[Semicolon]",
+        "command": "cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+right",
+        "command": "-cursorEnd",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+[Quote]",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+shift+[BracketLeft]",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+`",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+[",
+        "command": "cursorLineStart",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "-cursorLineStart",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+a",
+        "command": "cursorHome",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "home",
+        "command": "-cursorHome",
+        "when": "textInputFocus"
+    }
+]
