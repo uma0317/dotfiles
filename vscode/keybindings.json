@@ -15,7 +15,7 @@
         "when": "terminalFocus"
     },
     {
-        "key": "cmd+o s",
+        "key": "cmd+o t",
         "command": "workbench.action.quickOpenTerm"
     },
     {
@@ -93,5 +93,33 @@
     {
         "key": "cmd+o n",
         "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "cmd+o x",
+        "command": "workbench.action.terminal.kill"
+    },
+    {
+        "key": "cmd+o o",
+        "command": "workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+cmd+right",
+        "command": "-workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+o [Semicolon]",
+        "command": "workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+cmd+up",
+        "command": "-workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+e shift+[IntlYen]",
+        "command": "workbench.action.splitEditorRight"
     }
 ]
