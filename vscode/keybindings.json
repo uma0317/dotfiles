@@ -15,7 +15,7 @@
         "when": "terminalFocus"
     },
     {
-        "key": "cmd+o n",
+        "key": "cmd+o s",
         "command": "workbench.action.quickOpenTerm"
     },
     {
@@ -71,5 +71,27 @@
         "key": "home",
         "command": "-cursorHome",
         "when": "textInputFocus"
+    },
+    {
+        "key": "cmd+o c",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "ctrl+shift+[Equal]",
+        "command": "-workbench.action.terminal.new"
+    },
+    {
+        "key": "cmd+o shift+[IntlYen]",
+        "command": "workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+5",
+        "command": "-workbench.action.terminal.split",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+o n",
+        "command": "workbench.action.terminal.focusNext"
     }
 ]
