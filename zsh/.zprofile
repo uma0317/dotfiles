@@ -23,4 +23,4 @@ export PATH=$PATH:/Users/yama/.nodebrew/current/bin
 
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
-tmux source ~/.tmux.conf$'\b'
+# tmux source ~/.tmux.conf$'\b'
