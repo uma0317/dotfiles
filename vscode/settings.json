@@ -101,4 +101,22 @@
         "workbench.action.togglePanel"
     ],
     "breadcrumbs.enabled": true,
+    "window.zoomLevel": 0,
+    "editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.renderWhitespace": "all",
+	"editor.tabSize": 2,
+	"files.exclude": {
+		"**/.classpath": true,
+		"**/.project": true,
+		"**/.settings": true,
+		"**/.factorypath": true
+	},
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"python.jediEnabled": false,
+	"terminal.integrated.rendererType": "dom",
+	"workbench.colorTheme": "dev-dark-v",
+	"editor.formatOnSave": true,
+	"eslint.autoFixOnSave": true,
 }

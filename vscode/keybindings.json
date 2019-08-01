@@ -121,5 +121,13 @@
     {
         "key": "cmd+e shift+[IntlYen]",
         "command": "workbench.action.splitEditorRight"
+    },
+    {
+        "key": "cmd+e shift+[IntlYen]",
+        "command": "workbench.action.splitEditor"
+    },
+    {
+        "key": "ctrl+alt+cmd+[IntlYen]",
+        "command": "-workbench.action.splitEditor"
     }
 ]
