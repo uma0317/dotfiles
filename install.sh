@@ -1,9 +1,9 @@
 if type "apt-get" > /dev/null 2>&1; then
-    sudo apt-get install zsh
+    apt-get install zsh
 fi
 
 if type "yum" > /dev/null 2>&1; then
-		sudo yum install zsh
+		yum install zsh
 fi
 
 chsh -s $(which zsh)
