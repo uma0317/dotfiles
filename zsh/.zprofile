@@ -15,4 +15,3 @@ export PATH="$HOME/.composer/vendor/bin:$PATH"
 
 #kubernetes
 alias k='kubectl'
-# source <(kubectl completion zsh)
