@@ -13,5 +13,22 @@ export PATH=$PATH:/Users/yama/.nodebrew/current/bin
 
 export PATH="$HOME/.composer/vendor/bin:$PATH"
 
+export PATH="$HOME/binaly:$PATH"
+
+#flutter
+export PATH="$HOME/flutter/bin:$PATH"
+
+#flutter
+export PATH="$HOME/nushell-0.5.0:$PATH"
+
+#zsh補完
+fpath=(~/.zsh/completions $fpath)
+# export PATH="$HOME/projects/library/rust/starship/target/release:$PATH"
+# export PATH="$HOME/projects/library/rust/starship/target/debug:$PATH"
 #kubernetes
 alias k='kubectl'
+
+#alias
+alias sshw='ssh yuma@192.168.11.2'
+
+alias cdw='cd /Volumes/c/USers/yuma/projects'

@@ -8,8 +8,7 @@ export LANG=ja_JP.UTF-8
 autoload -Uz colors
 colors
 
-# 補完
-autoload -Uz compinit
+
 
 #ctrl + oのbind無効化
 bindkey -r "^O"
@@ -23,4 +22,15 @@ zplugin light zsh-users/zsh-autosuggestions
 zplugin light zdharma/fast-syntax-highlighting
 zplugin ice pick"async.zsh" src"pure.zsh"; zplugin light sindresorhus/pure
 
-compinit
+#starship
+eval "$(starship init zsh)"
+
+# goenv
+export GOENV_ROOT="$HOME/.goenv"
+export PATH="$GOENV_ROOT/bin:$PATH"
+eval "$(goenv init -)"
+
+# 補完
+autoload -Uz compinit
+
+compinit -u
