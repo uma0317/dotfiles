@@ -8,29 +8,26 @@ export LANG=ja_JP.UTF-8
 autoload -Uz colors
 colors
 
-
-
 #ctrl + oのbind無効化
 bindkey -r "^O"
 
-#zplugin
-source '/Users/yama/.zplugin/bin/zplugin.zsh'
-autoload -Uz _zplugin
-(( ${+_comps} )) && _comps[zplugin]=_zplugin
- 
-zplugin light zsh-users/zsh-autosuggestions
-zplugin light zdharma/fast-syntax-highlighting
-zplugin ice pick"async.zsh" src"pure.zsh"; zplugin light sindresorhus/pure
-
-#starship
-eval "$(starship init zsh)"
-
-# goenv
-export GOENV_ROOT="$HOME/.goenv"
-export PATH="$GOENV_ROOT/bin:$PATH"
-eval "$(goenv init -)"
+#zsh補完
+fpath=(~/.zsh/completions $fpath)
 
 # 補完
 autoload -Uz compinit
 
-compinit -u
+source $HOME/.zinit/bin/zinit.zsh
+
+autoload -Uz _zinit
+(( ${+_comps} )) && _comps[zinit]=_zinit
+zinit light zsh-users/zsh-autosuggestions
+zinit light zdharma/fast-syntax-highlighting
+zinit load zdharma/history-search-multi-word
+zinit light zsh-users/zsh-autosuggestions
+zinit light zdharma/fast-syntax-highlighting
+zinit ice pick"async.zsh" src"pure.zsh"; zinit light sindresorhus/pure
+zinit ice from"gh-r" as"program"
+zinit load junegunn/fzf-bin
+
+zinit wait lucid atload"zicompinit; zicdreplay" blockf for zsh-users/zsh-completions
