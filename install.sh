@@ -20,3 +20,4 @@ ln -sf ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/
 ln -sf ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
+curl -fsSL https://starship.rs/install.sh | bash
