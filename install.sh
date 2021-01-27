@@ -12,6 +12,7 @@ if type "yum" > /dev/null 2>&1; then
 fi
 
 chsh -s $(which zsh)
+mkdir ~/.config
 ## zpluginインストール
 
 ln -sf ~/dotfiles/zsh/.zprofile ~/.zprofile
