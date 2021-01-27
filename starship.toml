@@ -1,0 +1,25 @@
+[character]      # The name of the module we are confguring is "character"
+symbol = "➜"     # The "symbol" segment is being set to "➜"
+error_symbol = "✗"
+use_symbol_for_status = true
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+[battery]
+full_symbol = "🔋"
+charging_symbol = "⚡️"
+discharging_symbol = "💀"
+
+[git_branch]
+symbol = "\ue725 "
+format = ["rust","line_break","package","line_break","character"]
+
+[time]
+disabled = true
+format = "🕙[ %T ]"
+utc_time_offset = -5
+
+[username]
+show_always = false
