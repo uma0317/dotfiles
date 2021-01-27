@@ -14,9 +14,9 @@ fi
 chsh -s $(which zsh)
 ## zpluginインストール
 
-ln -sf zsh/.zprofile ~/.zprofile
-ln -sf zsh/.zshrc ~/.zshrc
-ln -sf vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
-ln -sf vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+ln -sf ~/dotfiles/zsh/.zprofile ~/.zprofile
+ln -sf ~/dotfiles/zsh/.zshrc ~/.zshrc
+ln -sf ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
+ln -sf ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zplugin/master/doc/install.sh)"
