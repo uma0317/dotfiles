@@ -20,6 +20,8 @@ export PATH="$HOME/flutter/bin:$PATH"
 
 #flutter
 export PATH="$HOME/nushell-0.5.0:$PATH"
+export NODE_PATH=/usr/local/lib/node_modules
+#kensho
 
 #zsh補完
 fpath=(~/.zsh/completions $fpath)
@@ -32,3 +34,5 @@ alias k='kubectl'
 alias sshw='ssh yuma@192.168.11.2'
 
 alias cdw='cd /Volumes/c/USers/yuma/projects'
+
+alias k='kensho s'
